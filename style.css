@@ -1,17 +1,44 @@
+body {
+  max-width: 90%;
+  margin: auto;
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(237, 241, 244),
+    rgb(119, 167, 216)
+  );
+  background: linear-gradient(90deg, rgb(237, 241, 244), rgb(119, 167, 216));
+  background-image: url("background.jpg");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 p {
-    font-family: serif;
-    word-spacing: 2px;
-    color: #262626
+  font-family: serif;
+  word-spacing: 2px;
+  color: #262626;
 }
 
 a {
-    color: red;
-    
+  color: red;
 }
 
-a:hover{
-    background-color: black;
+a:hover {
+  background-color: black;
 }
-a:visited{
-    color: gray;
+a:visited {
+  color: gray;
+}
+
+q {
+  max-width: 50%;
+  margin: auto;
+  font-size: 160%;
+  display: block;
+  background-color: gray;
+  border-left: 3px dashed;
+  padding-left: 30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
