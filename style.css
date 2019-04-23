@@ -1,0 +1,17 @@
+p {
+    font-family: serif;
+    word-spacing: 2px;
+    color: #262626
+}
+
+a {
+    color: red;
+    
+}
+
+a:hover{
+    background-color: black;
+}
+a:visited{
+    color: gray;
+}
