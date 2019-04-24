@@ -1,3 +1,7 @@
+*{
+  font-family: "open sans";
+}
+
 body {
   max-width: 90%;
   margin: auto;
@@ -14,10 +18,14 @@ body {
   background-size: cover;
 }
 
+header > h1{
+    background-color: yellow;
+}
+
 p {
   font-family: serif;
   word-spacing: 2px;
-  color: #262626;
+  color: white;
 }
 
 a {
@@ -41,4 +49,32 @@ q {
   padding-left: 30px;
   margin-top: 80px;
   margin-bottom: 80px;
+  font-style: italic;
+}
+
+.everybody{
+    border-left-color: green;
+}
+
+.farmer{
+    border-left-color: red;
+}
+
+.good {
+  text-transform: uppercase;
+  color: green;
+}
+
+.bad{
+  text-transform: uppercase;
+  color: red;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+img {
+  float: left;
+  margin-right: 10px;
 }
